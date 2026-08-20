@@ -6,8 +6,8 @@ WORKDIR /app
 # System deps for pgvector client + lightgbm
 RUN apt-get update && apt-get install -y --no-install-recommends libgomp1 curl && rm -rf /var/lib/apt/lists/*
 
-COPY backend/requirements.txt ./backend/requirements.txt
-RUN pip install --no-cache-dir --upgrade pip && pip install --no-cache-dir -r backend/requirements.txt
+COPY backend/requirements.txt backend/requirements-full.txt ./backend/
+RUN pip install --no-cache-dir --upgrade pip && pip install --no-cache-dir -r backend/requirements-full.txt
 
 COPY backend/ ./backend
 COPY scripts/ ./scripts
