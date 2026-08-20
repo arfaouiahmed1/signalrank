@@ -5,10 +5,10 @@
 > Not cosine similarity. Lexical catches `YOLOv8` when the JD writes `YOLOv8`; vector catches `browser automation` ≈ `RPA`. SignalRank does both, fuses with RRF, and proves it with `P@K / R@K / MRR / nDCG`.
 
 [![ci](https://github.com/arfaouiahmed1/signalrank/actions/workflows/ci.yml/badge.svg)](https://github.com/arfaouiahmed1/signalrank/actions/workflows/ci.yml)
-[![docker](https://img.shields.io/docker/pulls/ahmedarfaoui/signalrank-api)](https://hub.docker.com/r/ahmedarfaoui/signalrank-api)
-[![hf dataset](https://img.shields.io/badge/HF%20dataset-ahmedarfaoui%2Fsignalrank--jobs-yellow)](https://huggingface.co/datasets/ahmedarfaoui/signalrank-jobs)
-[![kaggle](https://img.shields.io/badge/Kaggle-signalrank--jobs--500-20BEFF)](https://www.kaggle.com/datasets/ahmedarfaoui/signalrank-jobs-500)
-[![space](https://img.shields.io/badge/HF%20Space-signalrank-blue)](https://huggingface.co/spaces/ahmedarfaoui/signalrank)
+[![docker](https://img.shields.io/docker/pulls/ahmedarfaoui/signalrank-api?label=docker%20pulls&logo=docker)](https://hub.docker.com/r/ahmedarfaoui/signalrank-api)
+[![hf dataset](https://img.shields.io/badge/HF%20dataset-ahmedarfaoui%2Fsignalrank--jobs-yellow?logo=huggingface)](https://huggingface.co/datasets/ahmedarfaoui/signalrank-jobs)
+[![kaggle](https://img.shields.io/badge/Kaggle-signalrank--jobs--500-20BEFF?logo=kaggle)](https://www.kaggle.com/datasets/ahmedarfaoui/signalrank-jobs-500)
+[![space](https://img.shields.io/badge/HF%20Space-signalrank-blue?logo=huggingface)](https://huggingface.co/spaces/ahmedarfaoui/signalrank)
 
 ---
 

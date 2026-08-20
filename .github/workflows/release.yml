@@ -60,6 +60,5 @@ jobs:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
           if [ -z "$HF_TOKEN" ]; then echo "HF_TOKEN not set — skip"; exit 0; fi
-          # Space sync via huggingface_hub (Docker SDK auto-builds from hf/space)
-          python -c "from huggingface_hub import HfApi; api=HfApi(token='$HF_TOKEN'); api.create_repo('ahmedarfaoui/signalrank', repo_type='space', space_sdk='docker', exist_ok=True)"
-          huggingface-cli upload ahmedarfaoui/signalrank hf/space --repo-type space --commit-message "release ${{ github.ref_name }}" || true
+          python -c "from huggingface_hub import HfApi; api=HfApi(token='$HF_TOKEN'); api.create_repo('ahmedarfaoui/signalrank', repo_type='space', space_sdk='docker', exist_ok=True)" || echo "HF Space create failed — check token write permission (need Write)"
+          huggingface-cli upload ahmedarfaoui/signalrank hf/space --repo-type space --commit-message "release ${{ github.ref_name }}" || echo "HF Space upload failed — check token"
