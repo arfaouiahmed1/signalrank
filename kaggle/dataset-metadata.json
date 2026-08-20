@@ -1,0 +1,10 @@
+{
+  "title": "SignalRank — 500 Jobs + Graded Qrels (Hybrid Search Benchmark)",
+  "id": "ahmedarfaoui/signalrank-jobs-500",
+  "licenses": [{ "name": "cc0" }],
+  "resources": [
+    { "path": "../data/raw/jobs.jsonl", "description": "500 normalized job descriptions (Kaggle lukebarousse/data_jobs + HF, deduped)" },
+    { "path": "../data/qrels.jsonl", "description": "Graded relevance qrels 0/1/2 for Ahmed CV (weak + optional LLM judge)" },
+    { "path": "../data/sample/cv_sample.txt", "description": "Anonymized CV sample (Ahmed Arfaoui, AI Engineer, Tunis)" }
+  ]
+}

@@ -1,0 +1,27 @@
+name: eval-full
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch: {}
+
+jobs:
+  eval-full:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r backend/requirements.txt
+      - name: Full eval with CE
+        run: |
+          python scripts/fetch_kaggle.py --sample 300 --out data/raw/jobs.jsonl
+          python scripts/build_qrels.py --jobs data/raw/jobs.jsonl --cv data/sample/cv_sample.txt --out data/qrels.jsonl
+          mkdir -p artifacts
+          python backend/app/evaluation/compare.py --jobs data/raw/jobs.jsonl --qrels data/qrels.jsonl --cv data/sample/cv_sample.txt --with-ce --out artifacts/metrics-full.json
+          cat artifacts/metrics-full.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: metrics-full
+          path: artifacts/metrics-full.json

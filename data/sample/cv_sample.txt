@@ -1,0 +1,46 @@
+AHMED ARFAOUI — AI Engineer | Tunis, Tunisia | ahmedarfaoui2000@gmail.com
+Portfolio: github.com/arfaouiahmed1 | linkedin.com/in/ahmedarfaoui99
+
+SUMMARY
+AI & Data Science Engineer (ESPRIT, 2022-2026, Excellent mention). Building agentic systems that use tools, browse the web, and leave evidence. Former BI → ML → agentic AI. Photography-trained attention to detail.
+
+SKILLS
+Python (95), LangGraph/LangChain (90), FastAPI (88), PyTorch (85), Docker/MLOps (82), Power BI (78)
+Agentic AI: LangGraph, LangChain, MCP, tool-use, browser automation (Puppeteer, MCP browser tools)
+ML/DL: PyTorch, TensorFlow, Scikit-learn, YOLOv8, ResNet, CNN, Librosa, signal processing
+Data: Pandas, SQL, PostgreSQL, FAISS, pgvector, sentence-transformers, DVC, MLflow, Elastic, CI/CD
+NLP: FAISS, FLAN-T5, Mistral, sentence-transformers, LIME, SHAP, LoRA fine-tuning, RAG (1000+ docs), semantic search, forecasting
+Cloud/MLOps: Docker, FastAPI, MLflow, DVC, CI/CD, Elastic, pgvector, HNSW
+
+EXPERIENCE
+Soft Stars — AI & Agentic Systems Engineer, Graduation Internship (Dec 2025 - Jun 2026)
+- Designed Open Web Catcher: multi-agent browser intelligence platform, 150+ sites reached, 97.6% tool-call success, 126 evaluated runs
+- Rebuilt n8n/Puppeteer prototype into LangChain/LangGraph/MCP/FastAPI/Next.js traceable architecture
+- Built evaluation, memory, evidence, operator-console workflows; measured real execution quality vs demos
+
+VERMEG — Data Science Intern (Aug-Sep 2025)
+- Automated conversion of 50+ legacy platform configs using Spring AI + LLM transformation workflows
+- 90% conversion accuracy; validated generated output against expected configs, iterated on failures
+
+ESPRIT — Data Science Intern (Jun-Aug 2025)
+- Benchmarked 6 clustering approaches with internal validation metrics, served selected model via FastAPI (<200ms)
+- Disciplined method comparison, latency as metric
+
+CMR Tunisie — BI & Data Science Intern (Jul-Aug 2024)
+- Power BI dashboards, commercial data modeling, ARIMA/Prophet forecasting, business storytelling
+
+PROJECTS (see portfolio)
+Open Web Catcher (Agentic AI/Browser automation) — LangGraph, MCP, FastAPI, Next.js, PostgreSQL, Puppeteer
+NEWSBOT AI (NLP/Explainable) — FAISS, FLAN-T5, Mistral, LoRA, LIME/SHAP, semantic search
+FarmWise (CV/Agri AI) — ResNet 95% disease acc, YOLOv8 88% mAP, RAG 1000+ docs, NDVI, Django/Next.js
+End-to-End MLOps — MLflow, DVC, Docker, FastAPI, CI/CD, Elastic, reproducible runs, 80% faster delivery
+Speech Emotion Recognition — 94.3% acc, Librosa, CNN, audio feature engineering
+Telecom Churn — model comparison, feature importance, Power BI, retention segmentation
+
+EDUCATION
+ESPRIT School of Engineering — Engineering Degree, Data Science & AI (2022-2026), Excellent mention
+IPEIB — Preparatory Cycle MP (2020-2022)
+
+TARGET ROLES
+Seeking AI Engineer / ML Engineer / Data Scientist / Search & Recommendation / Agentic AI roles in Tunisia, EU, remote.
+Interests: information retrieval, hybrid search, ranking, recommender systems, personalization, agentic systems, MLOps, computer vision.

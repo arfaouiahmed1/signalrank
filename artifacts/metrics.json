@@ -1,0 +1,39 @@
+{
+  "cv_id": "ahmed_cv",
+  "jobs": 500,
+  "qrels": 500,
+  "relevant_ge1": 319,
+  "relevant_eq2": 203,
+  "k": 10,
+  "methods": {
+    "embedding": {
+      "precision@10": 1.0,
+      "recall@10": 0.03134796238244514,
+      "precision@5": 1.0,
+      "recall@5": 0.01567398119122257,
+      "mrr": 1.0,
+      "ndcg@10": 0.955830517697074,
+      "ndcg@5": 1.0,
+      "latency_p50_ms": 45
+    },
+    "bm25": {
+      "precision@10": 1.0,
+      "recall@10": 0.03134796238244514,
+      "precision@5": 1.0,
+      "recall@5": 0.01567398119122257,
+      "mrr": 1.0,
+      "ndcg@10": 0.9368077570869661,
+      "ndcg@5": 0.9026211001048622
+    },
+    "hybrid": {
+      "precision@10": 1.0,
+      "recall@10": 0.03134796238244514,
+      "precision@5": 1.0,
+      "recall@5": 0.01567398119122257,
+      "mrr": 1.0,
+      "ndcg@10": 0.9537125187088151,
+      "ndcg@5": 1.0
+    }
+  },
+  "notes": "hybrid-only CI skips CE; full eval with --with-ce"
+}

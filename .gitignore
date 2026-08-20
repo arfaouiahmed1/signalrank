@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+.env.local
+
+# Data (reproducible via scripts/)
+data/raw/
+artifacts/*
+!artifacts/metrics.json
+!artifacts/metrics-full.json
+!artifacts/.gitkeep
+*.db
+
+# Models / embeddings cache
+.cache/
+models/
+*.bin
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+kaggle.json
+hf_token.txt
+
+# PG data
+pgdata/
