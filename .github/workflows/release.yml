@@ -53,7 +53,7 @@ jobs:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
           if [ -z "$HF_TOKEN" ]; then echo "HF_TOKEN not set — skip"; exit 0; fi
-          python scripts/push_hf_dataset.py --repo ahmedarfaoui/signalrank-jobs
+          python scripts/push_hf_dataset.py --repo ahmedarfaoui/signalrank-jobs || echo "HF push failed — check token write permission for ahmedarfaoui/signalrank-jobs"
 
       - name: HF Space — sync (Docker)
         env:

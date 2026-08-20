@@ -27,8 +27,9 @@ def main():
             api.upload_file(path_or_fileobj="hf/dataset/README.md", path_in_repo="README.md", repo_id=args.repo, repo_type="dataset")
         print(f"Pushed to https://huggingface.co/datasets/{args.repo}")
     except Exception as e:
-        print(f"HF push failed: {e}")
-        raise
+        print(f"HF push failed (non-fatal, check token permissions): {e}")
+        # do not raise — allow CI to continue (Kaggle may have succeeded)
+        return
 
 if __name__ == "__main__":
     main()
