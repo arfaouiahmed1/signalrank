@@ -12,7 +12,7 @@ RUN pip install --no-cache-dir --upgrade pip && pip install --no-cache-dir -r ba
 COPY backend/ ./backend
 COPY scripts/ ./scripts
 COPY data/sample/ ./data/sample
-COPY data/raw/ ./data/raw
+COPY data/README.md ./data/README.md
 COPY artifacts/ ./artifacts
 
 EXPOSE 8000
