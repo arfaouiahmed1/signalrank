@@ -32,9 +32,22 @@ IRRELEVANT_TITLES = ["sales", "marketing", "accountant", "hr ", "customer suppor
 
 def score_job(cv_text: str, job: dict) -> tuple[int, str]:
     jd = (job["title"] + " " + job["description"] + " " + " ".join(job.get("skills", []))).lower()
-    cv_tokens = tokenize(cv_text)
-    high_hits = sum(1 for t in HIGH_VALUE if t.lower() in jd)
-    nice_hits = sum(1 for t in NICE_VALUE if t.lower() in jd)
+    cv_low = cv_text.lower()
+    cv_tokens = tokenize(cv_text)  # kept for future token overlap, not used in weak labels
+    # CV-aware hits: phrase must be in BOTH CV and JD with word boundaries
+    # Also count skill overlap (for real HF/Kaggle data where skills are generic like 'python', 'sql')
+    def phrase_in(text: str, phrase: str) -> bool:
+        return re.search(r"\b" + re.escape(phrase.lower()) + r"\b", text) is not None
+    high_hits = sum(1 for t in HIGH_VALUE if phrase_in(cv_low, t) and phrase_in(jd, t))
+    nice_hits = sum(1 for t in NICE_VALUE if phrase_in(cv_low, t) and phrase_in(jd, t))
+    # Generic skill overlap (handles real data where HIGH_VALUE not present)
+    job_skills = job.get("skills", []) or []
+    if isinstance(job_skills, str):
+        job_skills = [s.strip() for s in job_skills.split(",")]
+    skill_hits = sum(1 for s in job_skills if s and phrase_in(cv_low, s.lower()))
+    # Combine: for real data, skill_hits is primary; for synthetic, high_hits dominates
+    # Use max to keep both signals
+    effective_hits = max(high_hits, skill_hits)
     title = job["title"].lower()
     title_boost = 0
     if any(k in title for k in ["search", "recommend", "personalization", "ranking"]):
@@ -44,26 +57,28 @@ def score_job(cv_text: str, job: dict) -> tuple[int, str]:
 
     # Hard-negative handling: irrelevant titles are capped even if they have AI distractors
     is_irrelevant_title = any(k in title for k in IRRELEVANT_TITLES)
-    total_high = high_hits + title_boost
+    total_high = effective_hits + title_boost
     if is_irrelevant_title:
-        # Irrelevant titles can at most be 0, or 1 if heavily stuffed (tests hard negatives)
-        if high_hits >= 4:
+        if effective_hits >= 4:
             rel = 1
-            rationale = f"high_hits={high_hits} but irrelevant_title — capped to 1 (hard negative)"
+            rationale = f"effective_hits={effective_hits} (high={high_hits}, skill={skill_hits}) but irrelevant_title — capped to 1 (hard negative)"
         else:
             rel = 0
-            rationale = f"high_hits={high_hits} irrelevant_title — capped 0"
+            rationale = f"effective_hits={effective_hits} irrelevant_title — capped 0"
         return rel, rationale
 
     if total_high >= 5:
         rel = 2
-        rationale = f"high_hits={high_hits} title_boost={title_boost} — strong alignment"
-    elif total_high >= 2 or (high_hits >= 1 and nice_hits >= 3):
+        rationale = f"effective_hits={effective_hits} (high={high_hits}, skill={skill_hits}) title_boost={title_boost} — strong alignment"
+    elif total_high >= 2 or (effective_hits >= 1 and nice_hits >= 3):
         rel = 1
-        rationale = f"high_hits={high_hits} nice_hits={nice_hits} title_boost={title_boost} — partial alignment"
+        rationale = f"effective_hits={effective_hits} nice_hits={nice_hits} title_boost={title_boost} — partial alignment"
+    elif skill_hits >= 2:
+        rel = 1
+        rationale = f"skill_hits={skill_hits} — skill overlap"
     else:
         rel = 0
-        rationale = f"high_hits={high_hits} nice_hits={nice_hits} — weak alignment"
+        rationale = f"effective_hits={effective_hits} skill_hits={skill_hits} nice_hits={nice_hits} — weak alignment"
 
     return rel, rationale
 

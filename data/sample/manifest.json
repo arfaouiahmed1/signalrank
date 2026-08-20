@@ -1,0 +1,42 @@
+[
+  {
+    "file": "cv_bigdata.txt",
+    "path": "data\\sample\\cv_bigdata.txt",
+    "size": 857
+  },
+  {
+    "file": "cv_engineering.txt",
+    "path": "data\\sample\\cv_engineering.txt",
+    "size": 4083
+  },
+  {
+    "file": "cv_hr.txt",
+    "path": "data\\sample\\cv_hr.txt",
+    "size": 4068
+  },
+  {
+    "file": "cv_hr2.txt",
+    "path": "data\\sample\\cv_hr2.txt",
+    "size": 1650
+  },
+  {
+    "file": "cv_information_technology.txt",
+    "path": "data\\sample\\cv_information_technology.txt",
+    "size": 4088
+  },
+  {
+    "file": "cv_sales.txt",
+    "path": "data\\sample\\cv_sales.txt",
+    "size": 4099
+  },
+  {
+    "file": "cv_sample.txt",
+    "path": "data\\sample\\cv_sample.txt",
+    "size": 3069
+  },
+  {
+    "file": "cv_teacher.txt",
+    "path": "data\\sample\\cv_teacher.txt",
+    "size": 4069
+  }
+]
