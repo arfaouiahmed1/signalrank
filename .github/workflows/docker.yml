@@ -12,17 +12,8 @@ jobs:
       contents: read
     steps:
       - uses: actions/checkout@v4
-
       - uses: docker/setup-qemu-action@v3
       - uses: docker/setup-buildx-action@v3
-
-      # DockerHub login — only when secrets are present (user confirmed they are set in UI, but guard allows local check)
-      - uses: docker/login-action@v3
-        if: ${{ secrets.DOCKERHUB_USERNAME != '' && secrets.DOCKERHUB_TOKEN != '' }}
-        with:
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
-
       - uses: docker/metadata-action@v5
         id: meta-api
         with:
@@ -32,20 +23,16 @@ jobs:
             type=semver,pattern={{version}}
             type=semver,pattern={{major}}.{{minor}}
             type=sha
-
       - uses: docker/build-push-action@v5
         with:
           context: .
           file: infra/Dockerfile.api
-          platforms: linux/amd64,linux/arm64
+          platforms: linux/amd64
           push: false
           tags: ${{ steps.meta-api.outputs.tags }}
           labels: ${{ steps.meta-api.outputs.labels }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
-          sbom: true
-          provenance: true
-
       - uses: docker/metadata-action@v5
         id: meta-fe
         with:
@@ -54,7 +41,6 @@ jobs:
             type=ref,event=branch
             type=semver,pattern={{version}}
             type=sha
-
       - uses: docker/build-push-action@v5
         with:
           context: .
