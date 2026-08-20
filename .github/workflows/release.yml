@@ -20,17 +20,33 @@ jobs:
       - name: Install publish deps
         run: pip install kaggle huggingface_hub datasets
 
+      - name: Prepare data for Kaggle (real HF)
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          pip install -r backend/requirements.txt
+          mkdir -p data/raw
+          python scripts/fetch_kaggle.py --sample 500 --out data/raw/jobs.jsonl || python scripts/fetch_kaggle.py --sample 500 --out data/raw/jobs.jsonl
+          python scripts/build_qrels.py --jobs data/raw/jobs.jsonl --cv data/sample/cv_sample.txt --out data/qrels.jsonl || true
+          # copy to kaggle dir so Kaggle CLI can zip it (data/raw is gitignored)
+          mkdir -p kaggle/data
+          cp data/raw/jobs.jsonl kaggle/data/jobs.jsonl || true
+          cp data/qrels.jsonl kaggle/data/qrels.jsonl || true
+          cp data/sample/cv_sample.txt kaggle/data/cv_sample.txt || true
+          ls -lh kaggle/data/ || true
+          cat kaggle/dataset-metadata.json
+
       - name: Kaggle — dataset version (auto-push on tag)
         env:
           KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
           KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
         run: |
           if [ -z "$KAGGLE_USERNAME" ]; then echo "KAGGLE secrets not set — skip"; exit 0; fi
-          # kaggle CLI expects kaggle.json or env
           mkdir -p ~/.kaggle
           echo "{\"username\":\"$KAGGLE_USERNAME\",\"key\":\"$KAGGLE_KEY\"}" > ~/.kaggle/kaggle.json
           chmod 600 ~/.kaggle/kaggle.json
-          kaggle datasets version -p kaggle --dir-mode zip -m "release ${{ github.ref_name }}" || kaggle datasets create -p kaggle --dir-mode zip
+          # use kaggle/data as payload if resources point outside repo
+          kaggle datasets version -p kaggle --dir-mode zip -m "release ${{ github.ref_name }}" || kaggle datasets create -p kaggle --dir-mode zip || echo "Kaggle push failed — check title/permissions"
 
       - name: HF — push dataset
         env:
