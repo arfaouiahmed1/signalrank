@@ -37,9 +37,12 @@ jobs:
       - name: Tests
         env:
           DATABASE_URL: postgresql://postgres:postgres@localhost:5432/signalrank_test
+          PYTHONPATH: backend:.
         run: |
           pytest backend/tests -q
       - name: Build mini index + eval (hybrid-only, no CE — fast CI)
+        env:
+          PYTHONPATH: backend:.
         run: |
           python scripts/fetch_kaggle.py --sample 100 --out data/raw/jobs.jsonl
           python scripts/build_qrels.py --jobs data/raw/jobs.jsonl --cv data/sample/cv_sample.txt --out data/qrels.jsonl

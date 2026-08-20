@@ -15,6 +15,8 @@ jobs:
           cache: pip
       - run: pip install -r backend/requirements.txt
       - name: Full eval with CE
+        env:
+          PYTHONPATH: backend:.
         run: |
           python scripts/fetch_kaggle.py --sample 300 --out data/raw/jobs.jsonl
           python scripts/build_qrels.py --jobs data/raw/jobs.jsonl --cv data/sample/cv_sample.txt --out data/qrels.jsonl
