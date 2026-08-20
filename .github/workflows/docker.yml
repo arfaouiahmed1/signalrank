@@ -49,7 +49,6 @@ jobs:
           cache-to: type=gha,mode=max
           sbom: true
           provenance: true
-          load: ${{ secrets.DOCKERHUB_USERNAME == '' }}
 
       # Frontend image
       - uses: docker/metadata-action@v5
@@ -71,4 +70,3 @@ jobs:
           labels: ${{ steps.meta-fe.outputs.labels }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
-          load: ${{ secrets.DOCKERHUB_USERNAME == '' }}
