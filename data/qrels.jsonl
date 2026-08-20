@@ -1,500 +1,500 @@
-{"cv_id": "ahmed_cv", "job_id": 1, "relevance": 1, "rationale": "high_hits=2 irrelevant_title — capped 0 [noise: upgraded 0->1]"}
-{"cv_id": "ahmed_cv", "job_id": 2, "relevance": 0, "rationale": "high_hits=13 title_boost=1 — strong alignment [noise: downgraded 2->0]"}
-{"cv_id": "ahmed_cv", "job_id": 3, "relevance": 1, "rationale": "high_hits=4 nice_hits=1 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 4, "relevance": 1, "rationale": "high_hits=3 nice_hits=2 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 5, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 6, "relevance": 1, "rationale": "high_hits=2 nice_hits=3 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 7, "relevance": 1, "rationale": "high_hits=2 nice_hits=3 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 8, "relevance": 2, "rationale": "high_hits=12 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 9, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 10, "relevance": 2, "rationale": "high_hits=6 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 11, "relevance": 2, "rationale": "high_hits=5 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 12, "relevance": 2, "rationale": "high_hits=11 title_boost=2 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 13, "relevance": 2, "rationale": "high_hits=9 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 14, "relevance": 1, "rationale": "high_hits=0 irrelevant_title — capped 0 [noise: upgraded 0->1]"}
-{"cv_id": "ahmed_cv", "job_id": 15, "relevance": 2, "rationale": "high_hits=6 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 16, "relevance": 1, "rationale": "high_hits=0 irrelevant_title — capped 0 [noise: upgraded 0->1]"}
-{"cv_id": "ahmed_cv", "job_id": 17, "relevance": 2, "rationale": "high_hits=4 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 18, "relevance": 1, "rationale": "high_hits=0 irrelevant_title — capped 0 [noise: upgraded 0->1]"}
-{"cv_id": "ahmed_cv", "job_id": 19, "relevance": 2, "rationale": "high_hits=9 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 20, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 21, "relevance": 2, "rationale": "high_hits=7 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 22, "relevance": 1, "rationale": "high_hits=0 irrelevant_title — capped 0 [noise: upgraded 0->1]"}
-{"cv_id": "ahmed_cv", "job_id": 23, "relevance": 2, "rationale": "high_hits=7 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 24, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 25, "relevance": 1, "rationale": "high_hits=2 irrelevant_title — capped 0 [noise: upgraded 0->1]"}
-{"cv_id": "ahmed_cv", "job_id": 26, "relevance": 2, "rationale": "high_hits=13 title_boost=2 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 27, "relevance": 2, "rationale": "high_hits=10 title_boost=2 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 28, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 29, "relevance": 2, "rationale": "high_hits=8 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 30, "relevance": 2, "rationale": "high_hits=8 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 31, "relevance": 0, "rationale": "high_hits=1 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 32, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 33, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 34, "relevance": 2, "rationale": "high_hits=6 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 35, "relevance": 2, "rationale": "high_hits=6 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 36, "relevance": 2, "rationale": "high_hits=8 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 37, "relevance": 2, "rationale": "high_hits=9 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 38, "relevance": 0, "rationale": "high_hits=1 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 39, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 40, "relevance": 2, "rationale": "high_hits=10 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 41, "relevance": 2, "rationale": "high_hits=7 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 42, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 43, "relevance": 2, "rationale": "high_hits=8 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 44, "relevance": 1, "rationale": "high_hits=2 nice_hits=1 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 45, "relevance": 2, "rationale": "high_hits=8 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 46, "relevance": 1, "rationale": "high_hits=4 nice_hits=3 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 47, "relevance": 2, "rationale": "high_hits=4 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 48, "relevance": 1, "rationale": "high_hits=0 irrelevant_title — capped 0 [noise: upgraded 0->1]"}
-{"cv_id": "ahmed_cv", "job_id": 49, "relevance": 2, "rationale": "high_hits=11 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 50, "relevance": 2, "rationale": "high_hits=6 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 51, "relevance": 2, "rationale": "high_hits=8 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 52, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 53, "relevance": 2, "rationale": "high_hits=12 title_boost=2 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 54, "relevance": 2, "rationale": "high_hits=4 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 55, "relevance": 2, "rationale": "high_hits=9 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 56, "relevance": 2, "rationale": "high_hits=5 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 57, "relevance": 1, "rationale": "high_hits=0 irrelevant_title — capped 0 [noise: upgraded 0->1]"}
-{"cv_id": "ahmed_cv", "job_id": 58, "relevance": 0, "rationale": "high_hits=2 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 59, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 60, "relevance": 0, "rationale": "high_hits=1 nice_hits=2 — weak alignment"}
-{"cv_id": "ahmed_cv", "job_id": 61, "relevance": 2, "rationale": "high_hits=12 title_boost=2 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 62, "relevance": 0, "rationale": "high_hits=5 title_boost=0 — strong alignment [noise: downgraded 2->0]"}
-{"cv_id": "ahmed_cv", "job_id": 63, "relevance": 0, "rationale": "high_hits=1 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 64, "relevance": 1, "rationale": "high_hits=2 irrelevant_title — capped 0 [noise: upgraded 0->1]"}
-{"cv_id": "ahmed_cv", "job_id": 65, "relevance": 0, "rationale": "high_hits=2 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 66, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 67, "relevance": 2, "rationale": "high_hits=8 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 68, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 69, "relevance": 0, "rationale": "high_hits=2 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 70, "relevance": 2, "rationale": "high_hits=10 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 71, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 72, "relevance": 2, "rationale": "high_hits=10 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 73, "relevance": 2, "rationale": "high_hits=6 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 74, "relevance": 2, "rationale": "high_hits=6 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 75, "relevance": 2, "rationale": "high_hits=5 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 76, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 77, "relevance": 1, "rationale": "high_hits=3 nice_hits=3 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 78, "relevance": 2, "rationale": "high_hits=8 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 79, "relevance": 2, "rationale": "high_hits=7 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 80, "relevance": 1, "rationale": "high_hits=5 title_boost=0 — strong alignment [noise: downgraded 2->1]"}
-{"cv_id": "ahmed_cv", "job_id": 81, "relevance": 1, "rationale": "high_hits=2 irrelevant_title — capped 0 [noise: upgraded 0->1]"}
-{"cv_id": "ahmed_cv", "job_id": 82, "relevance": 2, "rationale": "high_hits=10 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 83, "relevance": 0, "rationale": "high_hits=1 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 84, "relevance": 2, "rationale": "high_hits=9 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 85, "relevance": 2, "rationale": "high_hits=5 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 86, "relevance": 2, "rationale": "high_hits=10 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 87, "relevance": 2, "rationale": "high_hits=5 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 88, "relevance": 2, "rationale": "high_hits=12 title_boost=2 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 89, "relevance": 0, "rationale": "high_hits=5 title_boost=0 — strong alignment [noise: downgraded 2->0]"}
-{"cv_id": "ahmed_cv", "job_id": 90, "relevance": 0, "rationale": "high_hits=1 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 91, "relevance": 0, "rationale": "high_hits=9 title_boost=0 — strong alignment [noise: downgraded 2->0]"}
-{"cv_id": "ahmed_cv", "job_id": 92, "relevance": 2, "rationale": "high_hits=12 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 93, "relevance": 1, "rationale": "high_hits=6 title_boost=0 — strong alignment [noise: downgraded 2->1]"}
-{"cv_id": "ahmed_cv", "job_id": 94, "relevance": 2, "rationale": "high_hits=5 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 95, "relevance": 0, "rationale": "high_hits=10 title_boost=0 — strong alignment [noise: downgraded 2->0]"}
-{"cv_id": "ahmed_cv", "job_id": 96, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 97, "relevance": 0, "rationale": "high_hits=1 nice_hits=2 — weak alignment"}
-{"cv_id": "ahmed_cv", "job_id": 98, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 99, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 100, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 101, "relevance": 1, "rationale": "high_hits=2 nice_hits=2 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 102, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 103, "relevance": 1, "rationale": "high_hits=4 nice_hits=1 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 104, "relevance": 2, "rationale": "high_hits=11 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 105, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 106, "relevance": 2, "rationale": "high_hits=7 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 107, "relevance": 2, "rationale": "high_hits=7 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 108, "relevance": 0, "rationale": "high_hits=1 nice_hits=2 — weak alignment"}
-{"cv_id": "ahmed_cv", "job_id": 109, "relevance": 2, "rationale": "high_hits=11 title_boost=2 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 110, "relevance": 2, "rationale": "high_hits=10 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 111, "relevance": 2, "rationale": "high_hits=11 title_boost=2 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 112, "relevance": 0, "rationale": "high_hits=9 title_boost=1 — strong alignment [noise: downgraded 2->0]"}
-{"cv_id": "ahmed_cv", "job_id": 113, "relevance": 1, "rationale": "high_hits=3 nice_hits=4 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 114, "relevance": 1, "rationale": "high_hits=5 title_boost=0 — strong alignment [noise: downgraded 2->1]"}
-{"cv_id": "ahmed_cv", "job_id": 115, "relevance": 2, "rationale": "high_hits=8 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 116, "relevance": 2, "rationale": "high_hits=7 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 117, "relevance": 2, "rationale": "high_hits=6 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 118, "relevance": 2, "rationale": "high_hits=6 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 119, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 120, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 121, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 122, "relevance": 1, "rationale": "high_hits=0 irrelevant_title — capped 0 [noise: upgraded 0->1]"}
-{"cv_id": "ahmed_cv", "job_id": 123, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 124, "relevance": 0, "rationale": "high_hits=1 nice_hits=2 — weak alignment"}
-{"cv_id": "ahmed_cv", "job_id": 125, "relevance": 2, "rationale": "high_hits=5 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 126, "relevance": 1, "rationale": "high_hits=4 nice_hits=2 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 127, "relevance": 2, "rationale": "high_hits=11 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 128, "relevance": 1, "rationale": "high_hits=4 nice_hits=4 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 129, "relevance": 2, "rationale": "high_hits=13 title_boost=2 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 130, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 131, "relevance": 0, "rationale": "high_hits=1 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 132, "relevance": 2, "rationale": "high_hits=9 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 133, "relevance": 2, "rationale": "high_hits=10 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 134, "relevance": 2, "rationale": "high_hits=5 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 135, "relevance": 2, "rationale": "high_hits=10 title_boost=2 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 136, "relevance": 2, "rationale": "high_hits=5 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 137, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 138, "relevance": 1, "rationale": "high_hits=5 title_boost=1 — strong alignment [noise: downgraded 2->1]"}
-{"cv_id": "ahmed_cv", "job_id": 139, "relevance": 0, "rationale": "high_hits=2 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 140, "relevance": 2, "rationale": "high_hits=7 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 141, "relevance": 2, "rationale": "high_hits=7 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 142, "relevance": 1, "rationale": "high_hits=0 irrelevant_title — capped 0 [noise: upgraded 0->1]"}
-{"cv_id": "ahmed_cv", "job_id": 143, "relevance": 2, "rationale": "high_hits=5 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 144, "relevance": 2, "rationale": "high_hits=4 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 145, "relevance": 0, "rationale": "high_hits=1 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 146, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 147, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 148, "relevance": 2, "rationale": "high_hits=5 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 149, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 150, "relevance": 2, "rationale": "high_hits=7 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 151, "relevance": 2, "rationale": "high_hits=7 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 152, "relevance": 2, "rationale": "high_hits=12 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 153, "relevance": 0, "rationale": "high_hits=2 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 154, "relevance": 1, "rationale": "high_hits=1 irrelevant_title — capped 0 [noise: upgraded 0->1]"}
-{"cv_id": "ahmed_cv", "job_id": 155, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 156, "relevance": 2, "rationale": "high_hits=8 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 157, "relevance": 2, "rationale": "high_hits=13 title_boost=2 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 158, "relevance": 2, "rationale": "high_hits=5 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 159, "relevance": 2, "rationale": "high_hits=8 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 160, "relevance": 0, "rationale": "high_hits=1 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 161, "relevance": 0, "rationale": "high_hits=7 title_boost=1 — strong alignment [noise: downgraded 2->0]"}
-{"cv_id": "ahmed_cv", "job_id": 162, "relevance": 2, "rationale": "high_hits=15 title_boost=2 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 163, "relevance": 1, "rationale": "high_hits=2 nice_hits=4 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 164, "relevance": 0, "rationale": "high_hits=1 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 165, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 166, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 167, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 168, "relevance": 2, "rationale": "high_hits=5 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 169, "relevance": 2, "rationale": "high_hits=13 title_boost=2 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 170, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 171, "relevance": 2, "rationale": "high_hits=10 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 172, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 173, "relevance": 0, "rationale": "high_hits=1 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 174, "relevance": 2, "rationale": "high_hits=9 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 175, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 176, "relevance": 2, "rationale": "high_hits=7 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 177, "relevance": 1, "rationale": "high_hits=2 nice_hits=2 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 178, "relevance": 2, "rationale": "high_hits=8 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 179, "relevance": 2, "rationale": "high_hits=6 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 180, "relevance": 0, "rationale": "high_hits=1 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 181, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 182, "relevance": 0, "rationale": "high_hits=2 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 183, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 184, "relevance": 2, "rationale": "high_hits=5 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 185, "relevance": 2, "rationale": "high_hits=16 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 186, "relevance": 2, "rationale": "high_hits=6 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 187, "relevance": 1, "rationale": "high_hits=12 title_boost=1 — strong alignment [noise: downgraded 2->1]"}
-{"cv_id": "ahmed_cv", "job_id": 188, "relevance": 1, "rationale": "high_hits=4 nice_hits=2 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 189, "relevance": 2, "rationale": "high_hits=14 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 190, "relevance": 1, "rationale": "high_hits=4 nice_hits=3 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 191, "relevance": 2, "rationale": "high_hits=11 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 192, "relevance": 2, "rationale": "high_hits=7 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 193, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 194, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 195, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 196, "relevance": 1, "rationale": "high_hits=3 nice_hits=2 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 197, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 198, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 199, "relevance": 0, "rationale": "high_hits=8 title_boost=0 — strong alignment [noise: downgraded 2->0]"}
-{"cv_id": "ahmed_cv", "job_id": 200, "relevance": 1, "rationale": "high_hits=3 nice_hits=2 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 201, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 202, "relevance": 2, "rationale": "high_hits=10 title_boost=2 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 203, "relevance": 1, "rationale": "high_hits=2 nice_hits=3 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 204, "relevance": 2, "rationale": "high_hits=11 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 205, "relevance": 2, "rationale": "high_hits=5 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 206, "relevance": 2, "rationale": "high_hits=13 title_boost=2 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 207, "relevance": 2, "rationale": "high_hits=7 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 208, "relevance": 1, "rationale": "high_hits=4 nice_hits=1 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 209, "relevance": 2, "rationale": "high_hits=6 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 210, "relevance": 1, "rationale": "high_hits=3 nice_hits=2 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 211, "relevance": 2, "rationale": "high_hits=5 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 212, "relevance": 1, "rationale": "high_hits=11 title_boost=1 — strong alignment [noise: downgraded 2->1]"}
-{"cv_id": "ahmed_cv", "job_id": 213, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 214, "relevance": 1, "rationale": "high_hits=0 irrelevant_title — capped 0 [noise: upgraded 0->1]"}
-{"cv_id": "ahmed_cv", "job_id": 215, "relevance": 2, "rationale": "high_hits=8 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 216, "relevance": 2, "rationale": "high_hits=11 title_boost=2 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 217, "relevance": 1, "rationale": "high_hits=3 nice_hits=1 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 218, "relevance": 0, "rationale": "high_hits=2 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 219, "relevance": 0, "rationale": "high_hits=2 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 220, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 221, "relevance": 1, "rationale": "high_hits=4 nice_hits=3 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 222, "relevance": 2, "rationale": "high_hits=6 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 223, "relevance": 2, "rationale": "high_hits=5 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 224, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 225, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 226, "relevance": 2, "rationale": "high_hits=6 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 227, "relevance": 0, "rationale": "high_hits=2 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 228, "relevance": 2, "rationale": "high_hits=7 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 229, "relevance": 1, "rationale": "high_hits=12 title_boost=2 — strong alignment [noise: downgraded 2->1]"}
-{"cv_id": "ahmed_cv", "job_id": 230, "relevance": 2, "rationale": "high_hits=11 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 231, "relevance": 1, "rationale": "high_hits=3 nice_hits=1 title_boost=1 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 232, "relevance": 1, "rationale": "high_hits=4 nice_hits=3 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 233, "relevance": 1, "rationale": "high_hits=2 irrelevant_title — capped 0 [noise: upgraded 0->1]"}
-{"cv_id": "ahmed_cv", "job_id": 234, "relevance": 2, "rationale": "high_hits=11 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 235, "relevance": 0, "rationale": "high_hits=2 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 236, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 237, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 238, "relevance": 2, "rationale": "high_hits=11 title_boost=2 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 239, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 240, "relevance": 2, "rationale": "high_hits=5 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 241, "relevance": 0, "rationale": "high_hits=2 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 242, "relevance": 2, "rationale": "high_hits=9 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 243, "relevance": 2, "rationale": "high_hits=5 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 244, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 245, "relevance": 1, "rationale": "high_hits=1 nice_hits=3 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 246, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 247, "relevance": 2, "rationale": "high_hits=10 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 248, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 249, "relevance": 0, "rationale": "high_hits=1 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 250, "relevance": 1, "rationale": "high_hits=0 irrelevant_title — capped 0 [noise: upgraded 0->1]"}
-{"cv_id": "ahmed_cv", "job_id": 251, "relevance": 2, "rationale": "high_hits=10 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 252, "relevance": 2, "rationale": "high_hits=8 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 253, "relevance": 2, "rationale": "high_hits=10 title_boost=2 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 254, "relevance": 2, "rationale": "high_hits=8 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 255, "relevance": 2, "rationale": "high_hits=5 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 256, "relevance": 1, "rationale": "high_hits=4 nice_hits=2 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 257, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 258, "relevance": 1, "rationale": "high_hits=0 irrelevant_title — capped 0 [noise: upgraded 0->1]"}
-{"cv_id": "ahmed_cv", "job_id": 259, "relevance": 2, "rationale": "high_hits=5 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 260, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 261, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 262, "relevance": 2, "rationale": "high_hits=5 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 263, "relevance": 2, "rationale": "high_hits=5 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 264, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 265, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 266, "relevance": 2, "rationale": "high_hits=7 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 267, "relevance": 1, "rationale": "high_hits=0 irrelevant_title — capped 0 [noise: upgraded 0->1]"}
-{"cv_id": "ahmed_cv", "job_id": 268, "relevance": 1, "rationale": "high_hits=4 nice_hits=3 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 269, "relevance": 2, "rationale": "high_hits=6 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 270, "relevance": 0, "rationale": "high_hits=1 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 271, "relevance": 0, "rationale": "high_hits=1 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 272, "relevance": 1, "rationale": "high_hits=4 nice_hits=2 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 273, "relevance": 1, "rationale": "high_hits=3 nice_hits=0 title_boost=1 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 274, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 275, "relevance": 2, "rationale": "high_hits=4 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 276, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 277, "relevance": 2, "rationale": "high_hits=8 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 278, "relevance": 2, "rationale": "high_hits=6 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 279, "relevance": 2, "rationale": "high_hits=12 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 280, "relevance": 2, "rationale": "high_hits=7 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 281, "relevance": 1, "rationale": "high_hits=1 nice_hits=1 title_boost=1 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 282, "relevance": 1, "rationale": "high_hits=2 nice_hits=3 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 283, "relevance": 1, "rationale": "high_hits=3 nice_hits=3 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 284, "relevance": 2, "rationale": "high_hits=4 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 285, "relevance": 2, "rationale": "high_hits=7 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 286, "relevance": 1, "rationale": "high_hits=0 irrelevant_title — capped 0 [noise: upgraded 0->1]"}
-{"cv_id": "ahmed_cv", "job_id": 287, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 288, "relevance": 1, "rationale": "high_hits=4 nice_hits=1 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 289, "relevance": 2, "rationale": "high_hits=12 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 290, "relevance": 1, "rationale": "high_hits=5 title_boost=0 — strong alignment [noise: downgraded 2->1]"}
-{"cv_id": "ahmed_cv", "job_id": 291, "relevance": 0, "rationale": "high_hits=1 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 292, "relevance": 2, "rationale": "high_hits=8 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 293, "relevance": 1, "rationale": "high_hits=1 irrelevant_title — capped 0 [noise: upgraded 0->1]"}
-{"cv_id": "ahmed_cv", "job_id": 294, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 295, "relevance": 1, "rationale": "high_hits=2 nice_hits=3 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 296, "relevance": 2, "rationale": "high_hits=8 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 297, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 298, "relevance": 2, "rationale": "high_hits=11 title_boost=2 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 299, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 300, "relevance": 2, "rationale": "high_hits=6 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 301, "relevance": 2, "rationale": "high_hits=9 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 302, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 303, "relevance": 2, "rationale": "high_hits=6 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 304, "relevance": 1, "rationale": "high_hits=0 irrelevant_title — capped 0 [noise: upgraded 0->1]"}
-{"cv_id": "ahmed_cv", "job_id": 305, "relevance": 1, "rationale": "high_hits=4 nice_hits=3 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 306, "relevance": 2, "rationale": "high_hits=10 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 307, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 308, "relevance": 2, "rationale": "high_hits=11 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 309, "relevance": 2, "rationale": "high_hits=10 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 310, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 311, "relevance": 2, "rationale": "high_hits=4 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 312, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 313, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 314, "relevance": 2, "rationale": "high_hits=7 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 315, "relevance": 1, "rationale": "high_hits=4 nice_hits=2 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 316, "relevance": 1, "rationale": "high_hits=1 irrelevant_title — capped 0 [noise: upgraded 0->1]"}
-{"cv_id": "ahmed_cv", "job_id": 317, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 318, "relevance": 2, "rationale": "high_hits=6 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 319, "relevance": 2, "rationale": "high_hits=5 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 320, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 321, "relevance": 0, "rationale": "high_hits=2 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 322, "relevance": 1, "rationale": "high_hits=3 nice_hits=2 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 323, "relevance": 1, "rationale": "high_hits=2 irrelevant_title — capped 0 [noise: upgraded 0->1]"}
-{"cv_id": "ahmed_cv", "job_id": 324, "relevance": 1, "rationale": "high_hits=4 nice_hits=2 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 325, "relevance": 0, "rationale": "high_hits=1 nice_hits=2 — weak alignment"}
-{"cv_id": "ahmed_cv", "job_id": 326, "relevance": 2, "rationale": "high_hits=10 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 327, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 328, "relevance": 1, "rationale": "high_hits=0 irrelevant_title — capped 0 [noise: upgraded 0->1]"}
-{"cv_id": "ahmed_cv", "job_id": 329, "relevance": 2, "rationale": "high_hits=7 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 330, "relevance": 2, "rationale": "high_hits=7 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 331, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 332, "relevance": 1, "rationale": "high_hits=2 nice_hits=2 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 333, "relevance": 1, "rationale": "high_hits=0 irrelevant_title — capped 0 [noise: upgraded 0->1]"}
-{"cv_id": "ahmed_cv", "job_id": 334, "relevance": 1, "rationale": "high_hits=2 nice_hits=2 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 335, "relevance": 2, "rationale": "high_hits=7 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 336, "relevance": 1, "rationale": "high_hits=4 nice_hits=2 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 337, "relevance": 2, "rationale": "high_hits=5 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 338, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 339, "relevance": 1, "rationale": "high_hits=4 nice_hits=2 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 340, "relevance": 1, "rationale": "high_hits=7 title_boost=0 — strong alignment [noise: downgraded 2->1]"}
-{"cv_id": "ahmed_cv", "job_id": 341, "relevance": 1, "rationale": "high_hits=3 nice_hits=1 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 342, "relevance": 1, "rationale": "high_hits=3 nice_hits=1 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 343, "relevance": 1, "rationale": "high_hits=0 irrelevant_title — capped 0 [noise: upgraded 0->1]"}
-{"cv_id": "ahmed_cv", "job_id": 344, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 345, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 346, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 347, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 348, "relevance": 1, "rationale": "high_hits=0 irrelevant_title — capped 0 [noise: upgraded 0->1]"}
-{"cv_id": "ahmed_cv", "job_id": 349, "relevance": 1, "rationale": "high_hits=2 nice_hits=3 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 350, "relevance": 2, "rationale": "high_hits=12 title_boost=2 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 351, "relevance": 1, "rationale": "high_hits=0 irrelevant_title — capped 0 [noise: upgraded 0->1]"}
-{"cv_id": "ahmed_cv", "job_id": 352, "relevance": 0, "rationale": "high_hits=1 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 353, "relevance": 2, "rationale": "high_hits=7 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 354, "relevance": 2, "rationale": "high_hits=6 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 355, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 356, "relevance": 2, "rationale": "high_hits=12 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 357, "relevance": 0, "rationale": "high_hits=2 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 358, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 359, "relevance": 2, "rationale": "high_hits=7 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 360, "relevance": 1, "rationale": "high_hits=0 irrelevant_title — capped 0 [noise: upgraded 0->1]"}
-{"cv_id": "ahmed_cv", "job_id": 361, "relevance": 1, "rationale": "high_hits=12 title_boost=1 — strong alignment [noise: downgraded 2->1]"}
-{"cv_id": "ahmed_cv", "job_id": 362, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 363, "relevance": 2, "rationale": "high_hits=8 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 364, "relevance": 0, "rationale": "high_hits=2 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 365, "relevance": 2, "rationale": "high_hits=13 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 366, "relevance": 1, "rationale": "high_hits=6 title_boost=0 — strong alignment [noise: downgraded 2->1]"}
-{"cv_id": "ahmed_cv", "job_id": 367, "relevance": 1, "rationale": "high_hits=3 nice_hits=3 title_boost=0 — partial alignment"}
+{"cv_id": "ahmed_cv", "job_id": 1, "relevance": 1, "rationale": "high_hits=0 nice_hits=0 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 2, "relevance": 1, "rationale": "high_hits=0 nice_hits=0 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 3, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 4, "relevance": 1, "rationale": "high_hits=1 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 5, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 6, "relevance": 1, "rationale": "high_hits=0 nice_hits=0 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 7, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 8, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 9, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 10, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 11, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 12, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 13, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 14, "relevance": 1, "rationale": "high_hits=0 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 15, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 16, "relevance": 1, "rationale": "high_hits=0 nice_hits=2 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 17, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 18, "relevance": 1, "rationale": "high_hits=0 nice_hits=0 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 19, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 20, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 21, "relevance": 0, "rationale": "high_hits=1 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 22, "relevance": 1, "rationale": "high_hits=0 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 23, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 24, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 25, "relevance": 1, "rationale": "high_hits=0 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 26, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 27, "relevance": 0, "rationale": "high_hits=0 nice_hits=2 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 28, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 29, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 30, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 31, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 32, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 33, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 34, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 35, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 36, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 37, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 38, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 39, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 40, "relevance": 0, "rationale": "high_hits=0 nice_hits=2 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 41, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 42, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 43, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 44, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 45, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 46, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 47, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 48, "relevance": 1, "rationale": "high_hits=0 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 49, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 50, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 51, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 52, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 53, "relevance": 0, "rationale": "high_hits=1 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 54, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 55, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 56, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 57, "relevance": 1, "rationale": "high_hits=0 nice_hits=0 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 58, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 59, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 60, "relevance": 0, "rationale": "high_hits=0 nice_hits=2 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 61, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 62, "relevance": 1, "rationale": "high_hits=0 nice_hits=0 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 63, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 64, "relevance": 1, "rationale": "high_hits=0 nice_hits=0 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 65, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 66, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 67, "relevance": 0, "rationale": "high_hits=0 nice_hits=2 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 68, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 69, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 70, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 71, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 72, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 73, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 74, "relevance": 0, "rationale": "high_hits=0 nice_hits=2 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 75, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 76, "relevance": 0, "rationale": "high_hits=0 nice_hits=2 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 77, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 78, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 79, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 80, "relevance": 1, "rationale": "high_hits=0 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 81, "relevance": 1, "rationale": "high_hits=0 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 82, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 83, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 84, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 85, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 86, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 87, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 88, "relevance": 1, "rationale": "high_hits=0 nice_hits=0 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 89, "relevance": 1, "rationale": "high_hits=0 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 90, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 91, "relevance": 1, "rationale": "high_hits=0 nice_hits=0 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 92, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 93, "relevance": 1, "rationale": "high_hits=0 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 94, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 95, "relevance": 1, "rationale": "high_hits=0 nice_hits=0 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 96, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 97, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 98, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 99, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 100, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 101, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 102, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 103, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 104, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 105, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 106, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 107, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 108, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 109, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 110, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 111, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 112, "relevance": 1, "rationale": "high_hits=0 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 113, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 114, "relevance": 1, "rationale": "high_hits=0 nice_hits=0 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 115, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 116, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 117, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 118, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 119, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 120, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 121, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 122, "relevance": 1, "rationale": "high_hits=0 nice_hits=0 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 123, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 124, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 125, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 126, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 127, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 128, "relevance": 1, "rationale": "high_hits=0 nice_hits=0 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 129, "relevance": 1, "rationale": "high_hits=0 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 130, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 131, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 132, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 133, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 134, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 135, "relevance": 0, "rationale": "high_hits=0 nice_hits=2 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 136, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 137, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 138, "relevance": 1, "rationale": "high_hits=1 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 139, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 140, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 141, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 142, "relevance": 1, "rationale": "high_hits=0 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 143, "relevance": 1, "rationale": "high_hits=2 nice_hits=2 title_boost=0 — partial alignment"}
+{"cv_id": "ahmed_cv", "job_id": 144, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 145, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 146, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 147, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 148, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 149, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 150, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 151, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 152, "relevance": 0, "rationale": "high_hits=0 nice_hits=2 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 153, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 154, "relevance": 1, "rationale": "high_hits=0 nice_hits=2 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 155, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 156, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 157, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 158, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 159, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 160, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 161, "relevance": 1, "rationale": "high_hits=0 nice_hits=0 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 162, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 163, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 164, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 165, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 166, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 167, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 168, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 169, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 170, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 171, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 172, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 173, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 174, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 175, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 176, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 177, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 178, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 179, "relevance": 1, "rationale": "high_hits=0 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 180, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 181, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 182, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 183, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 184, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 185, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 186, "relevance": 1, "rationale": "high_hits=0 nice_hits=2 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 187, "relevance": 1, "rationale": "high_hits=0 nice_hits=0 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 188, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 189, "relevance": 0, "rationale": "high_hits=1 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 190, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 191, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 192, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 193, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 194, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 195, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 196, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 197, "relevance": 0, "rationale": "high_hits=1 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 198, "relevance": 0, "rationale": "high_hits=1 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 199, "relevance": 1, "rationale": "high_hits=1 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 200, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 201, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 202, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 203, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 204, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 205, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 206, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 207, "relevance": 1, "rationale": "high_hits=0 nice_hits=2 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 208, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 209, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 210, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 211, "relevance": 0, "rationale": "high_hits=1 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 212, "relevance": 1, "rationale": "high_hits=0 nice_hits=2 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 213, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 214, "relevance": 1, "rationale": "high_hits=1 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 215, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 216, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 217, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 218, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 219, "relevance": 0, "rationale": "high_hits=1 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 220, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 221, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 222, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 223, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 224, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 225, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 226, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 227, "relevance": 0, "rationale": "high_hits=0 nice_hits=2 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 228, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 229, "relevance": 1, "rationale": "high_hits=0 nice_hits=0 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 230, "relevance": 0, "rationale": "high_hits=1 nice_hits=2 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 231, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 232, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 233, "relevance": 1, "rationale": "high_hits=0 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 234, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 235, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 236, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 237, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 238, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 239, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 240, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 241, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 242, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 243, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 244, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 245, "relevance": 0, "rationale": "high_hits=1 nice_hits=2 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 246, "relevance": 0, "rationale": "high_hits=1 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 247, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 248, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 249, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 250, "relevance": 1, "rationale": "high_hits=0 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 251, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 252, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 253, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 254, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 255, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 256, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 257, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 258, "relevance": 1, "rationale": "high_hits=0 nice_hits=0 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 259, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 260, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 261, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 262, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 263, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 264, "relevance": 0, "rationale": "high_hits=1 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 265, "relevance": 0, "rationale": "high_hits=0 nice_hits=2 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 266, "relevance": 0, "rationale": "high_hits=1 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 267, "relevance": 1, "rationale": "high_hits=0 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 268, "relevance": 0, "rationale": "high_hits=1 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 269, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 270, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 271, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 272, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 273, "relevance": 1, "rationale": "high_hits=0 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 274, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 275, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 276, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 277, "relevance": 1, "rationale": "high_hits=0 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 278, "relevance": 0, "rationale": "high_hits=1 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 279, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 280, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 281, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 282, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 283, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 284, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 285, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 286, "relevance": 1, "rationale": "high_hits=0 nice_hits=0 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 287, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 288, "relevance": 1, "rationale": "high_hits=0 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 289, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 290, "relevance": 1, "rationale": "high_hits=0 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 291, "relevance": 0, "rationale": "high_hits=1 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 292, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 293, "relevance": 1, "rationale": "high_hits=0 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 294, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 295, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 296, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 297, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 298, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 299, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 300, "relevance": 1, "rationale": "high_hits=0 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 301, "relevance": 0, "rationale": "high_hits=0 nice_hits=2 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 302, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 303, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 304, "relevance": 1, "rationale": "high_hits=0 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 305, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 306, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 307, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 308, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 309, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 310, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 311, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 312, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 313, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 314, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 315, "relevance": 1, "rationale": "high_hits=0 nice_hits=3 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 316, "relevance": 1, "rationale": "high_hits=0 nice_hits=0 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 317, "relevance": 0, "rationale": "high_hits=1 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 318, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 319, "relevance": 1, "rationale": "high_hits=0 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 320, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 321, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 322, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 323, "relevance": 1, "rationale": "high_hits=0 nice_hits=0 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 324, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 325, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 326, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 327, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 328, "relevance": 1, "rationale": "high_hits=0 nice_hits=0 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 329, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 330, "relevance": 0, "rationale": "high_hits=1 nice_hits=2 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 331, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 332, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 333, "relevance": 1, "rationale": "high_hits=0 nice_hits=0 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 334, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 335, "relevance": 0, "rationale": "high_hits=1 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 336, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 337, "relevance": 1, "rationale": "high_hits=0 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 338, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 339, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 340, "relevance": 1, "rationale": "high_hits=0 nice_hits=0 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 341, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 342, "relevance": 1, "rationale": "high_hits=0 nice_hits=0 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 343, "relevance": 1, "rationale": "high_hits=0 nice_hits=2 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 344, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 345, "relevance": 0, "rationale": "high_hits=1 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 346, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 347, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 348, "relevance": 1, "rationale": "high_hits=1 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 349, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 350, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 351, "relevance": 1, "rationale": "high_hits=0 nice_hits=2 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 352, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 353, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 354, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 355, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 356, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 357, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 358, "relevance": 0, "rationale": "high_hits=0 nice_hits=2 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 359, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 360, "relevance": 1, "rationale": "high_hits=0 nice_hits=0 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 361, "relevance": 1, "rationale": "high_hits=0 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 362, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 363, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 364, "relevance": 0, "rationale": "high_hits=1 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 365, "relevance": 0, "rationale": "high_hits=0 nice_hits=2 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 366, "relevance": 1, "rationale": "high_hits=0 nice_hits=0 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 367, "relevance": 1, "rationale": "high_hits=0 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
 {"cv_id": "ahmed_cv", "job_id": 368, "relevance": 0, "rationale": "high_hits=1 nice_hits=2 — weak alignment"}
-{"cv_id": "ahmed_cv", "job_id": 369, "relevance": 2, "rationale": "high_hits=5 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 370, "relevance": 2, "rationale": "high_hits=8 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 371, "relevance": 1, "rationale": "high_hits=2 nice_hits=3 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 372, "relevance": 2, "rationale": "high_hits=6 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 373, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 374, "relevance": 0, "rationale": "high_hits=1 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 375, "relevance": 2, "rationale": "high_hits=10 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 376, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 377, "relevance": 2, "rationale": "high_hits=12 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 378, "relevance": 2, "rationale": "high_hits=11 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 379, "relevance": 0, "rationale": "high_hits=2 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 380, "relevance": 0, "rationale": "high_hits=1 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 381, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 382, "relevance": 1, "rationale": "high_hits=4 nice_hits=2 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 383, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 384, "relevance": 2, "rationale": "high_hits=6 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 385, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 386, "relevance": 2, "rationale": "high_hits=14 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 387, "relevance": 1, "rationale": "high_hits=1 irrelevant_title — capped 0 [noise: upgraded 0->1]"}
-{"cv_id": "ahmed_cv", "job_id": 388, "relevance": 2, "rationale": "high_hits=12 title_boost=2 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 389, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 390, "relevance": 2, "rationale": "high_hits=8 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 391, "relevance": 1, "rationale": "high_hits=0 irrelevant_title — capped 0 [noise: upgraded 0->1]"}
-{"cv_id": "ahmed_cv", "job_id": 392, "relevance": 2, "rationale": "high_hits=7 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 393, "relevance": 2, "rationale": "high_hits=11 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 394, "relevance": 0, "rationale": "high_hits=2 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 395, "relevance": 2, "rationale": "high_hits=5 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 396, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 397, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 398, "relevance": 2, "rationale": "high_hits=6 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 399, "relevance": 0, "rationale": "high_hits=1 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 400, "relevance": 1, "rationale": "high_hits=2 irrelevant_title — capped 0 [noise: upgraded 0->1]"}
-{"cv_id": "ahmed_cv", "job_id": 401, "relevance": 0, "rationale": "high_hits=1 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 402, "relevance": 2, "rationale": "high_hits=8 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 403, "relevance": 2, "rationale": "high_hits=8 title_boost=2 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 404, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 405, "relevance": 2, "rationale": "high_hits=5 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 406, "relevance": 2, "rationale": "high_hits=9 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 407, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 408, "relevance": 1, "rationale": "high_hits=9 title_boost=2 — strong alignment [noise: downgraded 2->1]"}
-{"cv_id": "ahmed_cv", "job_id": 409, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 410, "relevance": 2, "rationale": "high_hits=8 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 411, "relevance": 2, "rationale": "high_hits=5 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 412, "relevance": 1, "rationale": "high_hits=4 nice_hits=2 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 413, "relevance": 0, "rationale": "high_hits=2 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 414, "relevance": 2, "rationale": "high_hits=13 title_boost=2 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 415, "relevance": 2, "rationale": "high_hits=12 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 416, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 417, "relevance": 1, "rationale": "high_hits=3 nice_hits=3 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 418, "relevance": 2, "rationale": "high_hits=11 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 419, "relevance": 0, "rationale": "high_hits=2 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 420, "relevance": 0, "rationale": "high_hits=9 title_boost=2 — strong alignment [noise: downgraded 2->0]"}
-{"cv_id": "ahmed_cv", "job_id": 421, "relevance": 1, "rationale": "high_hits=9 title_boost=0 — strong alignment [noise: downgraded 2->1]"}
-{"cv_id": "ahmed_cv", "job_id": 422, "relevance": 0, "rationale": "high_hits=2 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 423, "relevance": 2, "rationale": "high_hits=12 title_boost=2 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 424, "relevance": 1, "rationale": "high_hits=4 nice_hits=3 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 425, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 426, "relevance": 0, "rationale": "high_hits=2 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 427, "relevance": 1, "rationale": "high_hits=4 nice_hits=4 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 428, "relevance": 1, "rationale": "high_hits=0 irrelevant_title — capped 0 [noise: upgraded 0->1]"}
-{"cv_id": "ahmed_cv", "job_id": 429, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 430, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 431, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 432, "relevance": 1, "rationale": "high_hits=2 nice_hits=3 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 433, "relevance": 2, "rationale": "high_hits=7 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 434, "relevance": 2, "rationale": "high_hits=12 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 435, "relevance": 2, "rationale": "high_hits=5 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 436, "relevance": 1, "rationale": "high_hits=1 nice_hits=3 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 437, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 438, "relevance": 0, "rationale": "high_hits=13 title_boost=1 — strong alignment [noise: downgraded 2->0]"}
-{"cv_id": "ahmed_cv", "job_id": 439, "relevance": 1, "rationale": "high_hits=0 irrelevant_title — capped 0 [noise: upgraded 0->1]"}
-{"cv_id": "ahmed_cv", "job_id": 440, "relevance": 2, "rationale": "high_hits=5 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 441, "relevance": 2, "rationale": "high_hits=11 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 442, "relevance": 1, "rationale": "high_hits=3 nice_hits=1 title_boost=1 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 443, "relevance": 2, "rationale": "high_hits=5 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 444, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 445, "relevance": 1, "rationale": "high_hits=4 nice_hits=3 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 446, "relevance": 2, "rationale": "high_hits=6 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 447, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 448, "relevance": 2, "rationale": "high_hits=5 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 449, "relevance": 1, "rationale": "high_hits=8 title_boost=0 — strong alignment [noise: downgraded 2->1]"}
-{"cv_id": "ahmed_cv", "job_id": 450, "relevance": 1, "rationale": "high_hits=4 nice_hits=3 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 451, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 452, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 453, "relevance": 2, "rationale": "high_hits=8 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 454, "relevance": 0, "rationale": "high_hits=2 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 455, "relevance": 2, "rationale": "high_hits=7 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 456, "relevance": 2, "rationale": "high_hits=7 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 457, "relevance": 2, "rationale": "high_hits=6 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 458, "relevance": 2, "rationale": "high_hits=12 title_boost=2 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 459, "relevance": 1, "rationale": "high_hits=3 nice_hits=2 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 460, "relevance": 0, "rationale": "high_hits=12 title_boost=2 — strong alignment [noise: downgraded 2->0]"}
-{"cv_id": "ahmed_cv", "job_id": 461, "relevance": 1, "rationale": "high_hits=8 title_boost=1 — strong alignment [noise: downgraded 2->1]"}
-{"cv_id": "ahmed_cv", "job_id": 462, "relevance": 1, "rationale": "high_hits=4 nice_hits=2 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 463, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 464, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 465, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 466, "relevance": 0, "rationale": "high_hits=2 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 467, "relevance": 2, "rationale": "high_hits=12 title_boost=2 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 468, "relevance": 0, "rationale": "high_hits=1 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 469, "relevance": 2, "rationale": "high_hits=6 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 470, "relevance": 0, "rationale": "high_hits=2 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 471, "relevance": 0, "rationale": "high_hits=2 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 472, "relevance": 1, "rationale": "high_hits=6 title_boost=1 — strong alignment [noise: downgraded 2->1]"}
-{"cv_id": "ahmed_cv", "job_id": 473, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 474, "relevance": 1, "rationale": "high_hits=4 nice_hits=4 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 475, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 476, "relevance": 2, "rationale": "high_hits=12 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 477, "relevance": 2, "rationale": "high_hits=8 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 478, "relevance": 0, "rationale": "high_hits=1 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 479, "relevance": 2, "rationale": "high_hits=5 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 480, "relevance": 2, "rationale": "high_hits=8 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 481, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 482, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 483, "relevance": 0, "rationale": "high_hits=1 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 484, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 485, "relevance": 1, "rationale": "high_hits=0 irrelevant_title — capped 0 [noise: upgraded 0->1]"}
-{"cv_id": "ahmed_cv", "job_id": 486, "relevance": 2, "rationale": "high_hits=7 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 487, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 488, "relevance": 2, "rationale": "high_hits=5 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 489, "relevance": 1, "rationale": "high_hits=4 nice_hits=4 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 490, "relevance": 2, "rationale": "high_hits=9 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 491, "relevance": 2, "rationale": "high_hits=8 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 492, "relevance": 2, "rationale": "high_hits=8 title_boost=0 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 493, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 494, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 495, "relevance": 1, "rationale": "high_hits=0 irrelevant_title — capped 0 [noise: upgraded 0->1]"}
-{"cv_id": "ahmed_cv", "job_id": 496, "relevance": 1, "rationale": "high_hits=4 nice_hits=2 title_boost=0 — partial alignment"}
-{"cv_id": "ahmed_cv", "job_id": 497, "relevance": 2, "rationale": "high_hits=9 title_boost=1 — strong alignment"}
-{"cv_id": "ahmed_cv", "job_id": 498, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
-{"cv_id": "ahmed_cv", "job_id": 499, "relevance": 1, "rationale": "high_hits=6 title_boost=0 — strong alignment [noise: downgraded 2->1]"}
-{"cv_id": "ahmed_cv", "job_id": 500, "relevance": 0, "rationale": "high_hits=0 irrelevant_title — capped 0"}
+{"cv_id": "ahmed_cv", "job_id": 369, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 370, "relevance": 1, "rationale": "high_hits=0 nice_hits=0 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 371, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 372, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 373, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 374, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 375, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 376, "relevance": 0, "rationale": "high_hits=0 nice_hits=2 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 377, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 378, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 379, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 380, "relevance": 0, "rationale": "high_hits=1 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 381, "relevance": 0, "rationale": "high_hits=1 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 382, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 383, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 384, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 385, "relevance": 0, "rationale": "high_hits=0 nice_hits=2 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 386, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 387, "relevance": 1, "rationale": "high_hits=0 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 388, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 389, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 390, "relevance": 0, "rationale": "high_hits=0 nice_hits=2 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 391, "relevance": 1, "rationale": "high_hits=0 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 392, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 393, "relevance": 0, "rationale": "high_hits=1 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 394, "relevance": 0, "rationale": "high_hits=0 nice_hits=2 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 395, "relevance": 1, "rationale": "high_hits=0 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 396, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 397, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 398, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 399, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 400, "relevance": 1, "rationale": "high_hits=0 nice_hits=0 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 401, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 402, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 403, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 404, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 405, "relevance": 0, "rationale": "high_hits=0 nice_hits=2 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 406, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 407, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 408, "relevance": 1, "rationale": "high_hits=1 nice_hits=0 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 409, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 410, "relevance": 0, "rationale": "high_hits=1 nice_hits=2 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 411, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 412, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 413, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 414, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 415, "relevance": 1, "rationale": "high_hits=1 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 416, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 417, "relevance": 0, "rationale": "high_hits=0 nice_hits=2 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 418, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 419, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 420, "relevance": 1, "rationale": "high_hits=0 nice_hits=0 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 421, "relevance": 1, "rationale": "high_hits=0 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 422, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 423, "relevance": 1, "rationale": "high_hits=0 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 424, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 425, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 426, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 427, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 428, "relevance": 1, "rationale": "high_hits=0 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 429, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 430, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 431, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 432, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 433, "relevance": 0, "rationale": "high_hits=1 nice_hits=2 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 434, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 435, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 436, "relevance": 0, "rationale": "high_hits=0 nice_hits=2 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 437, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 438, "relevance": 1, "rationale": "high_hits=0 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 439, "relevance": 1, "rationale": "high_hits=0 nice_hits=2 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 440, "relevance": 1, "rationale": "high_hits=0 nice_hits=0 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 441, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 442, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 443, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 444, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 445, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 446, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 447, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 448, "relevance": 1, "rationale": "high_hits=0 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 449, "relevance": 1, "rationale": "high_hits=0 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 450, "relevance": 0, "rationale": "high_hits=0 nice_hits=2 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 451, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 452, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 453, "relevance": 1, "rationale": "high_hits=0 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 454, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 455, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 456, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 457, "relevance": 0, "rationale": "high_hits=0 nice_hits=2 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 458, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 459, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 460, "relevance": 1, "rationale": "high_hits=0 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 461, "relevance": 1, "rationale": "high_hits=0 nice_hits=0 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 462, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 463, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 464, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 465, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 466, "relevance": 0, "rationale": "high_hits=1 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 467, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 468, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 469, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 470, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 471, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 472, "relevance": 1, "rationale": "high_hits=1 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 473, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 474, "relevance": 0, "rationale": "high_hits=1 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 475, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 476, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 477, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 478, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 479, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 480, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 481, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 482, "relevance": 0, "rationale": "high_hits=1 nice_hits=2 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 483, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 484, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 485, "relevance": 1, "rationale": "high_hits=0 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 486, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 487, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 488, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 489, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 490, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 491, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 492, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 493, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 494, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 495, "relevance": 1, "rationale": "high_hits=0 nice_hits=0 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 496, "relevance": 1, "rationale": "high_hits=0 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 497, "relevance": 0, "rationale": "high_hits=0 nice_hits=1 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 498, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}
+{"cv_id": "ahmed_cv", "job_id": 499, "relevance": 1, "rationale": "high_hits=0 nice_hits=1 — weak alignment [noise: upgraded 0->1]"}
+{"cv_id": "ahmed_cv", "job_id": 500, "relevance": 0, "rationale": "high_hits=0 nice_hits=0 — weak alignment"}

@@ -103,7 +103,15 @@ def try_fetch_kagglehub(sample: int):
     try:
         import kagglehub
         import pandas as pd
-        path = kagglehub.dataset_download("lukebarousse/data-jobs")
+        # HF id uses underscore, Kaggle uses hyphen — try both
+        for slug in ("lukebarousse/data-jobs", "lukebarousse/data_jobs"):
+            try:
+                path = kagglehub.dataset_download(slug)
+                break
+            except Exception:
+                continue
+        else:
+            return None
         # dataset contains data_jobs.csv or similar
         csv = next(Path(path).rglob("*.csv"), None)
         if not csv:
@@ -141,19 +149,43 @@ def try_fetch_hf(sample: int):
     """Try HF datasets; return list[dict] or None."""
     try:
         from datasets import load_dataset
-        ds = load_dataset("lukebarousse/data-jobs", split="train", streaming=False)
+        # Try both slug forms — HF dataset is underscore, some mirrors hyphen
+        for hf_id in ("lukebarousse/data_jobs", "lukebarousse/data-jobs"):
+            try:
+                ds = load_dataset(hf_id, split="train", streaming=False)
+                break
+            except Exception:
+                continue
+        else:
+            return None
         # sample
         ds = ds.shuffle(seed=42).select(range(min(sample, len(ds))))
         jobs = []
         for i, row in enumerate(ds, 1):
+            title = str(row.get("job_title_short") or row.get("job_title") or "Data Scientist")[:120]
+            company = str(row.get("company_name") or row.get("company") or "Unknown")[:80]
+            location = str(row.get("job_location") or row.get("location") or "Remote")[:80]
+            desc = str(row.get("job_description") or row.get("description") or "").strip()
+            skills = row.get("skills") or row.get("job_skills") or []
+            # HF lukebarousse/data_jobs has no job_description — synthesize from skills/title
+            if not desc or len(desc) < 20:
+                skill_str = ", ".join(skills) if isinstance(skills, list) else str(skills)
+                # keep original title_full if available
+                title_full = str(row.get("job_title") or title)
+                desc = f"We are hiring a {title} ({title_full}) at {company} ({location}). Role: {title_full}. Required skills: {skill_str}. You will work on {skill_str[:200]} and collaborate across data and engineering teams. Location: {location}. Apply via {company.lower().replace(' ','')}.com/careers.".strip()
+                # preserve as truncated
+                desc = desc[:4000]
+            # normalize skills to list
+            if isinstance(skills, str):
+                skills = [s.strip() for s in skills.split(",") if s.strip()]
             jobs.append({
                 "id": i,
-                "title": str(row.get("job_title_short") or row.get("job_title") or "Data Scientist")[:120],
-                "company": str(row.get("company_name") or row.get("company") or "Unknown")[:80],
-                "location": str(row.get("job_location") or row.get("location") or "Remote")[:80],
-                "description": str(row.get("job_description") or row.get("description") or "")[:4000],
-                "skills": row.get("skills") or [],
-                "source": "hf:lukebarousse/data-jobs",
+                "title": title,
+                "company": company,
+                "location": location,
+                "description": desc,
+                "skills": skills,
+                "source": "hf:lukebarousse/data_jobs",
             })
         return jobs
     except Exception as e:
