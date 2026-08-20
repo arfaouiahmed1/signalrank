@@ -201,7 +201,10 @@ Schema ` {id, title, company, location, description, skills, source}` → `data/
 
 **Current file on disk:** `hf:lukebarousse/data_jobs` (real titles/skills, synthetic desc) — therefore metrics are honest but low. To get Kaggle *real descriptions*, accept Kaggle terms and set `.env` (`KAGGLE_USERNAME=ahmedarfaoui99`, `KAGGLE_KEY=KGAT_...`, `HF_TOKEN=hf_...`), then `python scripts/fetch_kaggle.py --sample 500`.
 
-`data/sample/cv_sample.txt` — Ahmed, AI Engineer, Tunis — derived from `New Portfolio/src/data.js:1`. Add other CVs (`cv_swe.txt`, `cv_marketing.txt`) for multi-query eval (next step).
+`data/sample/cv_sample.txt` — Ahmed, AI Engineer, Tunis — derived from `New Portfolio/src/data.js:1` — plus **7 diverse CVs** from your two resume datasets:
+* `snehaanbhawal/resume-dataset` ([Kaggle](https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset)) — `Resume/Resume.csv` 2484 resumes, 25 categories (`INFORMATION-TECHNOLOGY`, `BUSINESS-DEVELOPMENT`, `HR`, `SALES`, `TEACHER`…) → `scripts/extract_resume_cvs.py` picks 5 representative (`cv_information_technology.txt`, `cv_hr.txt`, `cv_sales.txt`, `cv_teacher.txt`, `cv_engineering.txt`).
+* `saugataroyarghya/resume-dataset` ([Kaggle](https://www.kaggle.com/datasets/saugataroyarghya/resume-dataset)) — `resume_data.csv` 17M with `career_objective`, `skills`, `positions` → `cv_bigdata.txt`, `cv_hr2.txt`.
+All in `data/sample/cv_*.txt` (+ `manifest.json`). Enables **multi-CV macro-averaged eval** `scripts/eval_multi_cv.py` → `artifacts/metrics_multi.json` (macro `P@10 0.31, nDCG@10 0.23` vs single-CV `0.40/0.27`) — shows generalization, not just Ahmed.
 
 ---
 
@@ -227,7 +230,7 @@ Schema ` {id, title, company, location, description, skills, source}` → `data/
   ```
   * `ci.yml` — PR + push `main`: `ruff check/format` + `pytest` (Postgres `pgvector:pg16` service) + `fetch 100` + `compare --mode hybrid-only` (TF-IDF, no CE) + `assert_metrics --min-ndcg 0.15` + `upload artifact`.
   * `eval-full.yml` — nightly + dispatch: full 500 `--with-ce` + artifact `metrics-full.json`.
-  * `docker.yml` — push `main`/tag `v*`: `buildx` → `ahmedarfaoui/signalrank-api` + `signalrank-frontend` (`gha` cache, SBOM/provenance). Currently `push: false` until secrets verified — set to `push: ${{ secrets.DOCKERHUB_TOKEN != '' }}` to enable.
+  * `docker.yml` — push `main`/tag `v*`: `buildx` → `ahmedarfaoui/signalrank-api` + `signalrank-frontend` (`gha` cache, SBOM/provenance, `push: true` now that `DOCKERHUB_USERNAME/TOKEN` verified).
   * `release.yml` — tag `v*`: `kaggle datasets version` + `kernels push` + `HfApi` push `ahmedarfaoui/signalrank-jobs` + Space `ahmedarfaoui/signalrank` (Docker SDK) — skips gracefully if `KAGGLE_*/HF_TOKEN` not set.
 
   Secrets: `DOCKERHUB_USERNAME/TOKEN`, `HF_TOKEN`, `KAGGLE_USERNAME/KEY` (you confirmed all 5 in `signalrank → Settings → Secrets` screenshot).
