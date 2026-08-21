@@ -5,6 +5,7 @@
 > Not cosine similarity. Lexical catches `YOLOv8` when the JD writes `YOLOv8`; vector catches `browser automation` ≈ `RPA`. SignalRank does both, fuses with RRF, and proves it with `P@K / R@K / MRR / nDCG`.
 
 [![ci](https://github.com/arfaouiahmed1/signalrank/actions/workflows/ci.yml/badge.svg)](https://github.com/arfaouiahmed1/signalrank/actions/workflows/ci.yml)
+[![pages](https://img.shields.io/badge/GitHub%20Pages-live-brightgreen?logo=github)](https://arfaouiahmed1.github.io/signalrank/)
 [![docker](https://img.shields.io/docker/pulls/aki47/signalrank-api?label=docker%20pulls&logo=docker)](https://hub.docker.com/r/aki47/signalrank-api)
 [![hf dataset](https://img.shields.io/badge/HF%20dataset-ahmedarfaoui99%2Fsignalrank--jobs-yellow?logo=huggingface)](https://huggingface.co/datasets/ahmedarfaoui99/signalrank-jobs)
 [![kaggle](https://img.shields.io/badge/Kaggle-ahmedarfaoui99%2Fsignalrank--jobs--500-20BEFF?logo=kaggle)](https://www.kaggle.com/datasets/ahmedarfaoui99/signalrank-jobs-500)
