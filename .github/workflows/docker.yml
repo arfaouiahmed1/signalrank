@@ -27,7 +27,7 @@ jobs:
             type=semver,pattern={{version}}
             type=semver,pattern={{major}}.{{minor}}
             type=sha
-      - uses: docker/build-push-action@v5
+      - uses: docker/build-push-action@v7
         with:
           context: .
           file: infra/Dockerfile.api
@@ -47,7 +47,7 @@ jobs:
             type=ref,event=branch
             type=semver,pattern={{version}}
             type=sha
-      - uses: docker/build-push-action@v5
+      - uses: docker/build-push-action@v7
         with:
           context: .
           file: infra/Dockerfile.frontend
