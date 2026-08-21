@@ -3,7 +3,7 @@
 sentence-transformers==3.2.1
 torch==2.4.1
 transformers==4.45.2
-sentencepiece==0.2.0
+sentencepiece==0.2.2
 datasets==3.0.1
 kagglehub==0.3.4
 huggingface_hub==0.26.2
