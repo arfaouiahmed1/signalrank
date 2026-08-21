@@ -2,7 +2,7 @@
 -r requirements.txt
 sentence-transformers==3.2.1
 torch==2.4.1
-transformers==4.45.2
+transformers==5.15.0
 sentencepiece==0.2.0
 datasets==3.0.1
 kagglehub==0.3.4
