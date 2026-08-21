@@ -15,10 +15,10 @@ Hybrid search benchmark: 500 jobs from **Kaggle `lukebarousse/data_jobs`** + **H
 **Use:**
 ```python
 from datasets import load_dataset
-ds = load_dataset("ahmedarfaoui/signalrank-jobs", split="train")
+ds = load_dataset("ahmedarfaoui99/signalrank-jobs", split="train")
 # jobs.jsonl + qrels.jsonl in data/
 ```
 
 **Eval:** `backend/app/evaluation/compare.py --jobs data/raw/jobs.jsonl --qrels data/qrels.jsonl --with-ce --out artifacts/metrics.json` → P@K/R@K/MRR/nDCG@K, ablations `embedding-only vs BM25 vs hybrid vs hybrid+CE`.
 
-Repo: `github.com/arfaouiahmed1/signalrank` · DockerHub: `ahmedarfaoui/signalrank-api` · Space: `huggingface.co/spaces/ahmedarfaoui/signalrank`
+Repo: `github.com/arfaouiahmed1/signalrank` · DockerHub: `aki47/signalrank-api` · Space: `huggingface.co/spaces/ahmedarfaoui99/signalrank`

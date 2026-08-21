@@ -21,7 +21,7 @@ jobs:
       - uses: docker/metadata-action@v5
         id: meta-api
         with:
-          images: ahmedarfaoui/signalrank-api
+          images: aki47/signalrank-api
           tags: |
             type=ref,event=branch
             type=semver,pattern={{version}}
@@ -42,7 +42,7 @@ jobs:
       - uses: docker/metadata-action@v5
         id: meta-fe
         with:
-          images: ahmedarfaoui/signalrank-frontend
+          images: aki47/signalrank-frontend
           tags: |
             type=ref,event=branch
             type=semver,pattern={{version}}

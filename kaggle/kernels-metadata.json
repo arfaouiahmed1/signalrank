@@ -1,5 +1,5 @@
 {
-  "id": "ahmedarfaoui/signalrank-eval",
+  "id": "ahmedarfaoui99/signalrank-eval",
   "title": "SignalRank — Hybrid Search + Cross-Encoder Reranking (P@K, nDCG)",
   "code_file": "notebook.ipynb",
   "language": "python",
@@ -8,7 +8,7 @@
   "enable_gpu": false,
   "enable_tpu": false,
   "enable_internet": true,
-  "dataset_sources": ["ahmedarfaoui/signalrank-jobs-500"],
+  "dataset_sources": ["ahmedarfaoui99/signalrank-jobs-500"],
   "competition_sources": [],
   "kernel_sources": []
 }

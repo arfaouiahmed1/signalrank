@@ -1,6 +1,6 @@
 {
   "title": "SignalRank 500 Jobs + Graded Qrels",
-  "id": "ahmedarfaoui/signalrank-jobs-500",
+  "id": "ahmedarfaoui99/signalrank-jobs-500",
   "licenses": [{ "name": "cc0" }],
   "resources": [
     { "path": "data/jobs.jsonl", "description": "500 normalized job descriptions (Kaggle lukebarousse/data_jobs + HF, deduped)" },

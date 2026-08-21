@@ -5,10 +5,10 @@
 > Not cosine similarity. Lexical catches `YOLOv8` when the JD writes `YOLOv8`; vector catches `browser automation` ≈ `RPA`. SignalRank does both, fuses with RRF, and proves it with `P@K / R@K / MRR / nDCG`.
 
 [![ci](https://github.com/arfaouiahmed1/signalrank/actions/workflows/ci.yml/badge.svg)](https://github.com/arfaouiahmed1/signalrank/actions/workflows/ci.yml)
-[![docker](https://img.shields.io/docker/pulls/ahmedarfaoui/signalrank-api?label=docker%20pulls&logo=docker)](https://hub.docker.com/r/ahmedarfaoui/signalrank-api)
-[![hf dataset](https://img.shields.io/badge/HF%20dataset-ahmedarfaoui%2Fsignalrank--jobs-yellow?logo=huggingface)](https://huggingface.co/datasets/ahmedarfaoui/signalrank-jobs)
-[![kaggle](https://img.shields.io/badge/Kaggle-signalrank--jobs--500-20BEFF?logo=kaggle)](https://www.kaggle.com/datasets/ahmedarfaoui/signalrank-jobs-500)
-[![space](https://img.shields.io/badge/HF%20Space-signalrank-blue?logo=huggingface)](https://huggingface.co/spaces/ahmedarfaoui/signalrank)
+[![docker](https://img.shields.io/docker/pulls/aki47/signalrank-api?label=docker%20pulls&logo=docker)](https://hub.docker.com/r/aki47/signalrank-api)
+[![hf dataset](https://img.shields.io/badge/HF%20dataset-ahmedarfaoui99%2Fsignalrank--jobs-yellow?logo=huggingface)](https://huggingface.co/datasets/ahmedarfaoui99/signalrank-jobs)
+[![kaggle](https://img.shields.io/badge/Kaggle-ahmedarfaoui99%2Fsignalrank--jobs--500-20BEFF?logo=kaggle)](https://www.kaggle.com/datasets/ahmedarfaoui99/signalrank-jobs-500)
+[![space](https://img.shields.io/badge/HF%20Space-ahmedarfaoui99%2Fsignalrank-blue?logo=huggingface)](https://huggingface.co/spaces/ahmedarfaoui99/signalrank)
 
 ---
 
@@ -210,11 +210,15 @@ All in `data/sample/cv_*.txt` (+ `manifest.json`). Enables **multi-CV macro-aver
 
 ## 8. Kaggle Notebooks & HF Pushes & CI/CD
 
-* **Notebook:** `notebooks/01_retrieval_eval.ipynb` — same pipeline as `compare.py` (BM25+vector+RRF+CE), plots `ndcg_comparison.png` + `latency_vs_quality.png` back to `docs/images`. Kaggle mirror `kaggle/notebook.ipynb` pushed via `kaggle kernels push` (`kaggle/kernels-metadata.json:1`, `dataset_sources: [ahmedarfaoui/signalrank-jobs-500]`).
+* **Notebooks (all Plotly interactive, export static PNG + HTML for README):**
+  * `01_retrieval_eval.ipynb` — single-CV (Ahmed) BM25+vector+RRF+CE, `nDCG@K / P@K` (matplotlib + Plotly `ndcg_plotly.html`)
+  * `02_interactive_metrics_plotly.ipynb` — **Plotly** `nDCG@10` bar + `quality vs cost` scatter + `P@K/R@K/MRR/nDCG` grouped (hover `P@10/MRR`), exports `docs/images/*_plotly.html`
+  * `03_multi_cv_plotly.ipynb` — **Plotly** multi-CV (8 diverse CVs from `snehaanbhawal` + `saugataroyarghya`) `per-CV nDCG heatmap` + `macro vs single` + `relevant per CV` — shows why single-CV `1.00` was misleading
+  * Kaggle mirror `kaggle/notebook.ipynb` pushed via `kaggle kernels push` (`kaggle/kernels-metadata.json:1`, `dataset_sources: [ahmedarfaoui99/signalrank-jobs-500]`)
 
 * **Push scripts:**
   ```bash
-  python scripts/push_hf_dataset.py --repo ahmedarfaoui/signalrank-jobs  # needs HF_TOKEN, pushes data/ + hf/dataset/README.md
+  python scripts/push_hf_dataset.py --repo ahmedarfaoui99/signalrank-jobs  # needs HF_TOKEN, pushes data/ + hf/dataset/README.md
   kaggle datasets create -p kaggle --dir-mode zip  # or version
   kaggle datasets version -p kaggle --dir-mode zip -m "release v0.1.1"
   kaggle kernels push -p kaggle
@@ -224,14 +228,14 @@ All in `data/sample/cv_*.txt` (+ `manifest.json`). Enables **multi-CV macro-aver
   ```mermaid
   flowchart LR
       GH[GitHub push main/tag] --> CI[ci.yml<br/>ruff + pytest<br/>fetch 100 + qrels + compare hybrid-only<br/>assert_metrics gate]
-      GH --> DOCKER[docker.yml<br/>buildx multi-arch<br/>DockerHub ahmedarfaoui/signalrank-api]
+      GH --> DOCKER[docker.yml<br/>buildx multi-arch<br/>DockerHub aki47/signalrank-api]
       CI --> EVAL[eval-full.yml<br/>nightly 03:00 UTC<br/>500 + CE → metrics-full.json]
       GH --> REL[release.yml<br/>tag v* → kaggle version + kernels push<br/>+ HF dataset + Space Docker]
-  ```
+   ```
   * `ci.yml` — PR + push `main`: `ruff check/format` + `pytest` (Postgres `pgvector:pg16` service) + `fetch 100` + `compare --mode hybrid-only` (TF-IDF, no CE) + `assert_metrics --min-ndcg 0.15` + `upload artifact`.
   * `eval-full.yml` — nightly + dispatch: full 500 `--with-ce` + artifact `metrics-full.json`.
-  * `docker.yml` — push `main`/tag `v*`: `buildx` → `ahmedarfaoui/signalrank-api` + `signalrank-frontend` (`gha` cache, SBOM/provenance, `push: true` now that `DOCKERHUB_USERNAME/TOKEN` verified).
-  * `release.yml` — tag `v*`: `kaggle datasets version` + `kernels push` + `HfApi` push `ahmedarfaoui/signalrank-jobs` + Space `ahmedarfaoui/signalrank` (Docker SDK) — skips gracefully if `KAGGLE_*/HF_TOKEN` not set.
+  * `docker.yml` — push `main`/tag `v*`: `buildx` → `aki47/signalrank-api` + `aki47/signalrank-frontend` (`gha` cache, SBOM/provenance, `push: true`).
+  * `release.yml` — tag `v*`: `kaggle datasets version` + `kernels push` + `HfApi` push `ahmedarfaoui99/signalrank-jobs` + Space `ahmedarfaoui99/signalrank` (Docker SDK) — skips gracefully if `KAGGLE_*/HF_TOKEN` not set.
 
   Secrets: `DOCKERHUB_USERNAME/TOKEN`, `HF_TOKEN`, `KAGGLE_USERNAME/KEY` (you confirmed all 5 in `signalrank → Settings → Secrets` screenshot).
 

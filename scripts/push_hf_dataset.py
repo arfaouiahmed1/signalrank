@@ -6,7 +6,7 @@ from pathlib import Path
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--repo", type=str, default="ahmedarfaoui/signalrank-jobs")
+    ap.add_argument("--repo", type=str, default="ahmedarfaoui99/signalrank-jobs")
     args = ap.parse_args()
     token = os.getenv("HF_TOKEN")
     if not token:
