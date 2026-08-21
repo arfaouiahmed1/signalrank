@@ -1,0 +1,21 @@
+# Secrets — never baked into image
+.env
+.env.local
+.env.*.local
+kaggle.json
+hf_token.txt
+*.pem
+*.key
+
+# Data raw (gitignored, large) — only sample + artifacts are copied
+data/raw/
+pgdata/
+*.db
+__pycache__/
+.venv/
+venv/
+.git/
+.github/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/

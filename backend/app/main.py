@@ -9,18 +9,49 @@ from fastapi import FastAPI, UploadFile, File, Form, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
+# Security: rate limiting + hardened CORS
+from slowapi import Limiter
+from slowapi.util import get_remote_address
+from slowapi.errors import RateLimitExceeded
+from fastapi.responses import JSONResponse
+from fastapi import Request
+
+limiter = Limiter(key_func=get_remote_address, default_limits=["60/minute"])
+# Allowed origins: Pages + HF Space + local dev — configurable via ALLOWED_ORIGINS env (comma-separated)
+_allowed = os.getenv("ALLOWED_ORIGINS", "https://arfaouiahmed1.github.io,https://ahmedarfaoui99-signalrank.hf.space,http://localhost:3000,http://localhost:8000")
+ALLOWED_ORIGINS = [o.strip() for o in _allowed.split(",") if o.strip()]
+
 app = FastAPI(
     title="SignalRank API",
     description="CV → hybrid search (BM25 + pgvector) → cross-encoder rerank → ranked jobs. Metrics: P@K/R@K/MRR/nDCG.",
     version="0.1.0",
 )
 
+app.state.limiter = limiter
+
+@app.exception_handler(RateLimitExceeded)
+async def _rate_limit_handler(request: Request, exc: RateLimitExceeded):
+    return JSONResponse(status_code=429, content={"detail": "Rate limit exceeded. Try again later."})
+
+@app.middleware("http")
+async def _security_headers(request: Request, call_next):
+    resp = await call_next(request)
+    resp.headers["X-Content-Type-Options"] = "nosniff"
+    resp.headers["X-Frame-Options"] = "DENY"
+    resp.headers["Referrer-Policy"] = "strict-origin-when-cross-origin"
+    resp.headers["Permissions-Policy"] = "geolocation=(), microphone=(), camera=()"
+    resp.headers["Content-Security-Policy"] = "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; connect-src 'self' https://ahmedarfaoui99-signalrank.hf.space https://arfaouiahmed1.github.io; img-src 'self' data: https:; frame-ancestors 'none'"
+    # HSTS only when not localhost (Pages/HF are HTTPS)
+    if "https://" in str(request.url) or request.headers.get("x-forwarded-proto") == "https":
+        resp.headers["Strict-Transport-Security"] = "max-age=31536000; includeSubDomains"
+    return resp
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
+    allow_origins=ALLOWED_ORIGINS,
+    allow_credentials=False,
+    allow_methods=["GET", "POST"],
+    allow_headers=["Content-Type", "Authorization"],
 )
 
 # --- helpers: try to use pgvector, fallback to in-memory ---
@@ -111,6 +142,17 @@ class RankRequest(BaseModel):
     k: int = 10
     method: str = "hybrid+ce"  # embedding | bm25 | hybrid | hybrid+ce | hybrid+lgbm
 
+    def model_post_init(self, __context):
+        # Pydantic v2 hook — validate after init
+        if len(self.cv_text) < 20:
+            raise ValueError("cv_text too short (min 20 chars)")
+        if len(self.cv_text) > 20000:
+            raise ValueError("cv_text too long (max 20000 chars)")
+        if not 1 <= self.k <= 50:
+            raise ValueError("k must be 1..50")
+        if self.method not in ("embedding", "vector", "bm25", "hybrid", "hybrid+ce", "hybrid+lgbm"):
+            raise ValueError(f"method must be one of embedding/bm25/hybrid/hybrid+ce/hybrid+lgbm, got {self.method}")
+
 @app.get("/health")
 def health():
     return {"status": "ok", "service": "signalrank", "version": "0.1.0"}
@@ -121,7 +163,9 @@ def list_jobs(limit: int = Query(20, le=500), offset: int = 0):
     return {"total": len(jobs), "jobs": jobs[offset: offset+limit]}
 
 @app.post("/rank")
+@limiter.limit("30/minute")
 async def rank(
+    request: Request,
     cv_text: Optional[str] = Form(None),
     cv_file: Optional[UploadFile] = File(None),
     k: int = Form(10),
@@ -131,15 +175,25 @@ async def rank(
     # If called as JSON via RankRequest, FastAPI will route to rank_json below
     text = cv_text or ""
     if cv_file is not None:
+        # 5 MB limit — prevents abuse on Pages/HF Space (public)
         data = await cv_file.read()
+        if len(data) > 5 * 1024 * 1024:
+            raise HTTPException(413, "File too large (max 5 MB)")
         if cv_file.filename and cv_file.filename.lower().endswith(".pdf"):
             text = _extract_pdf_text(data)
         else:
+            # basic content-type check
+            if cv_file.content_type and "text" not in cv_file.content_type and "pdf" not in cv_file.content_type and "octet-stream" not in cv_file.content_type:
+                raise HTTPException(400, f"Unsupported file type: {cv_file.content_type}")
             text = data.decode("utf-8", errors="ignore")
     if not text or len(text.strip()) < 20:
         raise HTTPException(400, "Provide cv_text (>=20 chars) or cv_file (pdf/txt)")
 
     k = max(1, min(int(k), 50))
+    if method not in ("embedding", "vector", "bm25", "hybrid", "hybrid+ce", "hybrid+lgbm"):
+        raise HTTPException(400, f"method must be one of embedding/bm25/hybrid/hybrid+ce/hybrid+lgbm, got {method}")
+    if len(text) > 20000:
+        raise HTTPException(400, "cv_text too long (max 20000 chars)")
     text = text.strip()
 
     from app.retrieval.hybrid import hybrid_search
@@ -203,7 +257,8 @@ async def rank(
     return {"method": method_out, "k": k, "results": results, "meta": {"bm25": len(bm25_res), "vector": len(vec_res), "fused": len(fused), "ce_available": is_ce_available(), "lgbm_available": is_lgbm_available()}}
 
 @app.post("/rank/json")
-def rank_json(req: RankRequest):
+@limiter.limit("30/minute")
+def rank_json(request: Request, req: RankRequest):
     # convenience for JSON clients (frontend fetch with JSON)
     import asyncio
     # Reuse logic via internal call — duplicate minimal to avoid Form parsing complexity
@@ -243,10 +298,20 @@ def get_metrics():
     return {"detail": "No metrics yet. Run: python backend/app/evaluation/compare.py --jobs data/raw/jobs.jsonl --qrels data/qrels.jsonl --out artifacts/metrics.json"}
 
 @app.post("/ingest")
-def ingest(jobs_path: str = "data/raw/jobs.jsonl", no_embed: bool = False):
-    from scripts.ingest import ingest_no_embed, ingest_with_embed
+@limiter.limit("10/minute")
+def ingest(request: Request, jobs_path: str = "data/raw/jobs.jsonl", no_embed: bool = False):
+    # Path traversal guard — only allow inside data/
     import pathlib
+    from scripts.ingest import ingest_no_embed, ingest_with_embed
     p = pathlib.Path(jobs_path)
+    try:
+        # Python 3.9+ is_relative_to
+        if not p.resolve().is_relative_to(pathlib.Path("data").resolve()):
+            raise HTTPException(403, "jobs_path must be inside data/ directory")
+    except AttributeError:
+        # fallback for older
+        if "data" not in str(p.resolve()):
+            raise HTTPException(403, "jobs_path must be inside data/")
     if not p.exists():
         raise HTTPException(404, f"jobs not found: {jobs_path}")
     if no_embed:

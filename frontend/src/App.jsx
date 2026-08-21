@@ -65,7 +65,8 @@ export default function App() {
         fd.set("cv_text", "") // let backend use file
         fd.append("cv_file", file)
       }
-      const r = await fetch(`${API}/rank`, { method: "POST", body: fd })
+       const r = await fetch(`${API}/rank`, { method: "POST", body: fd })
+      if (r.status === 429) throw new Error("Rate limited (30/min). Try again in a minute.")
       if (!r.ok) throw new Error(await r.text())
       const j = await r.json()
       setResults(j.results || [])
@@ -208,11 +209,11 @@ export default function App() {
         </Card>
 
         <footer className="mt-10 flex flex-wrap gap-3 text-xs text-muted-foreground">
-          <a href="https://huggingface.co/datasets/ahmedarfaoui/signalrank-jobs" target="_blank" className="inline-flex items-center gap-1 hover:text-foreground"><ExternalLink className="h-3 w-3" /> HF Dataset</a>
+          <a href="https://huggingface.co/datasets/ahmedarfaoui99/signalrank-jobs" target="_blank" className="inline-flex items-center gap-1 hover:text-foreground"><ExternalLink className="h-3 w-3" /> HF Dataset (ahmedarfaoui99/signalrank-jobs)</a>
           <span>·</span>
-          <a href="https://www.kaggle.com/datasets/ahmedarfaoui/signalrank-jobs-500" target="_blank" className="inline-flex items-center gap-1 hover:text-foreground"><ExternalLink className="h-3 w-3" /> Kaggle</a>
+          <a href="https://www.kaggle.com/datasets/ahmedarfaoui99/signalrank-jobs-500" target="_blank" className="inline-flex items-center gap-1 hover:text-foreground"><ExternalLink className="h-3 w-3" /> Kaggle (ahmedarfaoui99/signalrank-jobs-500)</a>
           <span>·</span>
-          <span>DockerHub: <code>ahmedarfaoui/signalrank-api</code></span>
+          <span>DockerHub: <code>aki47/signalrank-api</code> · <code>aki47/signalrank-frontend</code> (92 pulls)</span>
         </footer>
       </main>
 
